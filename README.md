@@ -10,9 +10,9 @@ the battery and its management system consists of 3 samsung 18650 batteries (8c)
 ![Keys](https://img.shields.io/badge/Keys-105-B87333?style=flat-square&labelColor=2C2C2C) ![Style](https://img.shields.io/badge/Aesthetic-Steampunk-8B4513?style=flat-square&labelColor=2C2C2C) ![Inputs](https://img.shields.io/badge/Inputs-2_Encoders_%2B_Macropad-grey?style=flat-square&labelColor=2C2C2C)
 
 
-made by
-ekam wadhwa
-founder,
-nexus
-
+built by 
+ekam wadhwa 
+founder, 
+nexus 
+ 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ekam.wadhwa1/)

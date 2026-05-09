@@ -11,8 +11,6 @@ the battery and its management system consists of 3 samsung 18650 batteries (8c)
 
 
 built by 
-ekam wadhwa 
-founder, 
-nexus 
+ekam wadhwa
  
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ekam.wadhwa1/)

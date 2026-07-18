@@ -1,16 +1,70 @@
-# nexus.terminal
-it is a portable touchscreen device with 2 displays powered by a lattepanda iota with 8gb ram and intel n150. paired with a custom built mechanical keyboard for typing,coding,streaming and web browsing
+![banner](assets\banner.jpg)
+# nexus terminal
+this is a small handheld cyberdeck with a custom mechanical keyboard with macropad, rotary encoders and joystick for use as a reading terminal, hardware hacking tool or even a compact work station running windows, yes it can run full x86 windows
 
-it is equiped with a 60% mechanical keyboard with a 3 by 3 macropad with 2 rotary encoders powered seperately by a esp32 s3 devkit c1. it also haves a 0.96 inch oled display
+## Features
 
-the battery and its management system consists of 3 samsung 18650 batteries (8c) for quick charge, a 20 ampere battery management system is also added for safety and overcharge protection the bms power output powers the lattepanda iota and a powerbank module with 2 usb A ports to power the displays,a type c charging module is also added to make it compatible with any standard type c charger
+* **Custom Mechanical Keyboard:** Integrated layout featuring a dedicated macropad for custom shortcuts.
+* **Tactile Controls:** Dual rotary encoders and a physical joystick for navigation and custom inputs.
+* **keyboard display:** a 1.3" Oled display for setting macro's and show stats
+* **Heavy Compute:** Powered by a LattePanda IOTA mainboard for full desktop-class performance in a portable form factor.
+* **Fully Modular CAD:** Parametric case design optimized for 3D printing and easy hardware modification.
+* **Active Cooling System:** Integrated cooling with a dedicated active cooler to maintain optimal temperatures under heavy processing loads.
+* **Modular Type-C UART Interface:** An exposed Type-C module in keyboard wired for UART protocol, allowing you to instantly hot-plug custom external hardware modules, sensors, or debugging tools.
 
-![ESP32-S3](https://img.shields.io/badge/Microcontroller-ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Arduino](https://img.shields.io/badge/Platform-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white) ![KICAD](https://img.shields.io/badge/Design-KICAD-blue?style=for-the-badge&logo=kicad&logoColor=white) 
+## Repository Structure
 
-![Keys](https://img.shields.io/badge/Keys-105-B87333?style=flat-square&labelColor=2C2C2C) ![Style](https://img.shields.io/badge/Aesthetic-Steampunk-8B4513?style=flat-square&labelColor=2C2C2C) ![Inputs](https://img.shields.io/badge/Inputs-2_Encoders_%2B_Macropad-grey?style=flat-square&labelColor=2C2C2C)
+| Directory | Content Description |
+| :--- | :--- |
+| `ASSETS/` | Project imagery, graphics, and branding materials (e.g., banner, logos). |
+| `CAD FILES/` | 3D mechanical assemblies separated into individual `STEP` and `STL` directories. |
+| `DATASHEETS/` | Comprehensive hardware datasheets for core components (OLED, MCP23017, TP4056, switches, etc.). |
+| `DIMENSIONS AND DRAWINGS/` | 2D layouts, dimensions, and reference drawings for the hardware displays. |
+| `FUSION FILES/` | Original parametric design assets (`.f3d`) for custom individual components and sub-assemblies. |
+| `KICAD FILES/KEYBOARD/` | Active development directory for the custom keyboard and macropad electronics engineering. |
+| `PRINT FILES/` | Sorted, print-ready `.stl` slice files split by assembly groups (`DEVICE` vs `KEYBOARD`). |
+| `PRODUCTION(KEYBOARD PCB)/` | Manufacturing-ready hardware deliverables (Gerber `.zip`, BOM, coordinate position files). |
+| `scotto_kicad/` | Source hardware schematic captures, custom footprints, and layout design routing maps. |
 
 
-built by 
-ekam wadhwa
- 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ekam.wadhwa1/)
+ ## Getting Started
+
+### Mechanical & CAD Files
+* **For 3D Printing:** Navigate to `PRINT FILES/` or `CAD FILES/STL/`. The components are pre-oriented and split into clean assembly layers (`DEVICE` and `KEYBOARD`) for straightforward printing.
+* **For Design History / Assembly:** Open the `.f3d` assets inside the `FUSION FILES/` directory using Autodesk Fusion to access the full parametric timeline and component design structure.
+
+### Electronics & PCB Fabrication
+* **Schematics & Layouts:** Open the `scotto_kicad/` directory using KiCad to view the schematic captures and matrix traces.
+* **For Manufacturing:** Production-ready production outputs (including Gerber archives, component coordinates, and placement data) are fully generated and located in the `PRODUCTION(KEYBOARD PCB)/` folder.
+
+### Modular Hacking Interface
+* The integrated Type-C interface breaks out **UART** communication protocol pins. Custom external peripheral modules can be hot-plugged directly into this bus for hardware expansion.
+
+## credits
+keyboard footprint and kicad library- [joe scotto][scotto]
+documentation for lattepanda iota- [lattepanda][panda]
+documentation for 7 inch display- [display 7"][panda2]
+documentation for 7.9 inch display- [display7.9"][waveshare]
+
+## License
+This project is licensed under the terms found in the [LICENSE](LICENSE) file included in this repository.
+
+## badges
+![GitHub repo size](https://img.shields.io/github/repo-size/ekam-wadhwa1/nexus.terminal?color=amber&style=flat-square)
+![GitHub license](https://img.shields.io/github/license/ekam-wadhwa1/nexus.terminal?color=teal&style=flat-square)
+![Hardware](https://img.shields.io/badge/hardware-custom%20PCB-blue?style=flat-square)
+![CAD](https://img.shields.io/badge/CAD-Fusion%20360-orange?style=flat-square)
+
+## about me
+im just a student trying my best to do stuff i like
+
+connect here
+[![Instagram](https://img.shields.io/badge/Instagram-ekam.wadhwa1-E4405F?style=flat-square&logo=instagram&logoColor=white&color=amber)](https://www.instagram.com/ekam.wadhwa1/)
+
+
+
+### links
+[scotto]: https://github.com/joe-scotto/scottokeebs
+[panda]: https://docs.lattepanda.com/content/iota_edition/specification/
+[panda2]: https://docs.lattepanda.com/content/iota_edition/product_catalog/
+[waveshare]: https://www.waveshare.com/wiki/7.9inch_HDMI_LCD?srsltid=AfmBOorE2-GmKdZrASGmWnHQZjMvq2EKgf3DztLH1sLowHcDzXAIXQx8

@@ -1,4 +1,4 @@
-![banner](ASSETS\banner.jpg)
+![banner](ASSETS/banner.jpg)
 # nexus terminal
 this is a small handheld cyberdeck with a custom mechanical keyboard with macropad, rotary encoders and joystick for use as a reading terminal, hardware hacking tool or even a compact work station running windows, yes it can run full x86 windows
 

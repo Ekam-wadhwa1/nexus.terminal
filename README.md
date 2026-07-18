@@ -41,19 +41,19 @@ this is a small handheld cyberdeck with a custom mechanical keyboard with macrop
 * The integrated Type-C interface breaks out **UART** communication protocol pins. Custom external peripheral modules can be hot-plugged directly into this bus for hardware expansion.
 
 ## credits
-keyboard footprint and kicad library- [joe scotto][scotto]
-documentation for lattepanda iota- [lattepanda][panda]
-documentation for 7 inch display- [display 7"][panda2]
-documentation for 7.9 inch display- [display7.9"][waveshare]
+keyboard footprint and kicad library- [joe scotto][scotto] <br>
+documentation for lattepanda iota- [lattepanda][panda] <br>
+documentation for 7 inch display- [display 7"][panda2] <br>
+documentation for 7.9 inch display- [display7.9"][waveshare] <br>
 
 ## License
 This project is licensed under the terms found in the [LICENSE](LICENSE) file included in this repository.
 
 ## badges
-![GitHub repo size](https://img.shields.io/github/repo-size/ekam-wadhwa1/nexus.terminal?color=amber&style=flat-square)
-![GitHub license](https://img.shields.io/github/license/ekam-wadhwa1/nexus.terminal?color=teal&style=flat-square)
-![Hardware](https://img.shields.io/badge/hardware-custom%20PCB-blue?style=flat-square)
-![CAD](https://img.shields.io/badge/CAD-Fusion%20360-orange?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/ekam-wadhwa1/nexus.terminal?color=amber&style=flat-square) <br>
+![GitHub license](https://img.shields.io/github/license/ekam-wadhwa1/nexus.terminal?color=teal&style=flat-square) <br>
+![Hardware](https://img.shields.io/badge/hardware-custom%20PCB-blue?style=flat-square) <br>
+![CAD](https://img.shields.io/badge/CAD-Fusion%20360-orange?style=flat-square) <br>
 
 ## about me
 im just a student trying my best to do stuff i like
